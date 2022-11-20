@@ -1,0 +1,26 @@
+h1{
+    color:darkcyan;
+}
+
+p{
+    font-family: Cambria;
+    color: darkslategrey;
+}
+li{
+    font-style: italic;
+    color:cadetblue;
+    font-family: Calibri;
+}
+h3{
+    color: dodgerblue;
+    font-family: Calibri;
+}
+tr{
+    color: lightseagreen;
+    font-family: Calibri;
+}
+
+body{
+    background-color:aliceblue;
+    font-family: Calibri;
+}
