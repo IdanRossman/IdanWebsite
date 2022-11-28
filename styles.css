@@ -1,26 +1,125 @@
-h1{
-    color:darkcyan;
-}
-
-p{
-    font-family: Cambria;
-    color: darkslategrey;
-}
-li{
-    font-style: italic;
-    color:cadetblue;
-    font-family: Calibri;
-}
-h3{
-    color: dodgerblue;
-    font-family: Calibri;
-}
-tr{
-    color: lightseagreen;
-    font-family: Calibri;
-}
-
 body{
-    background-color:aliceblue;
-    font-family: Calibri;
+    text-align: initial;
+    font-family: tahoma;
+    background-image: url('images/background\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+h1{
+    color:darkslategray;
+    font-size:10ex;
+}
+
+h2{
+    color: darkslategray;
+    font-size:xx-large;
+}
+p{
+    color: darkslategrey;
+    font-family: Tahoma;
+}
+
+hr{
+    color: darkslategray;
+}
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.navigation {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    border: 3px solid darkslategray;
+    padding: 10px;
+  }
+
+ #divRight{
+    width: 20%;
+    float: right;
+    text-align: center;
+ }
+
+ #divLeft{
+    width: 20%;
+    float: left;
+    text-align: left;
+ }
+
+ #divCenter{
+    width: 60%;
+    float: right;
+    text-align: center;
+ }
+/* Dropdown Button */
+.dropbtn {
+    background-color:darkslategray;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .heb{
+    direction: rtl;
+  }
+  .buttonGeneric{
+    background-color:darkslategray;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+  }
+
+  .buttonGeneric:hover{
+    background-color: green;;
+
+  }
+
+  .buttonGeneric *{
+    color: white;
+  }
